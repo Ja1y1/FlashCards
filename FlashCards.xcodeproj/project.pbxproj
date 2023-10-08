@@ -11,6 +11,10 @@
 		69450B042AD2CD2500B3FF22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69450B032AD2CD2500B3FF22 /* ContentView.swift */; };
 		69450B062AD2CD2500B3FF22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69450B052AD2CD2500B3FF22 /* Assets.xcassets */; };
 		69450B092AD2CD2500B3FF22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69450B082AD2CD2500B3FF22 /* Preview Assets.xcassets */; };
+		69450B122AD2D05700B3FF22 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69450B112AD2D05700B3FF22 /* SwiftUIView.swift */; };
+		69450B142AD2D16600B3FF22 /* image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69450B132AD2D16600B3FF22 /* image.swift */; };
+		69450B162AD2D37500B3FF22 /* Riyadh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69450B152AD2D37500B3FF22 /* Riyadh.swift */; };
+		69450B182AD2E0D700B3FF22 /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69450B172AD2E0D700B3FF22 /* ProfileCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		69450B032AD2CD2500B3FF22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		69450B052AD2CD2500B3FF22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69450B082AD2CD2500B3FF22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69450B112AD2D05700B3FF22 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		69450B132AD2D16600B3FF22 /* image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = image.swift; sourceTree = "<group>"; };
+		69450B152AD2D37500B3FF22 /* Riyadh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riyadh.swift; sourceTree = "<group>"; };
+		69450B172AD2E0D700B3FF22 /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,11 @@
 			children = (
 				69450B012AD2CD2500B3FF22 /* FlashCardsApp.swift */,
 				69450B032AD2CD2500B3FF22 /* ContentView.swift */,
+				69450B112AD2D05700B3FF22 /* SwiftUIView.swift */,
+				69450B132AD2D16600B3FF22 /* image.swift */,
+				69450B152AD2D37500B3FF22 /* Riyadh.swift */,
+				69450B192AD2F25700B3FF22 /* profile */,
+				69450B172AD2E0D700B3FF22 /* ProfileCardView.swift */,
 				69450B052AD2CD2500B3FF22 /* Assets.xcassets */,
 				69450B072AD2CD2500B3FF22 /* Preview Content */,
 			);
@@ -65,6 +78,13 @@
 				69450B082AD2CD2500B3FF22 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69450B192AD2F25700B3FF22 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				69450B042AD2CD2500B3FF22 /* ContentView.swift in Sources */,
+				69450B142AD2D16600B3FF22 /* image.swift in Sources */,
 				69450B022AD2CD2500B3FF22 /* FlashCardsApp.swift in Sources */,
+				69450B162AD2D37500B3FF22 /* Riyadh.swift in Sources */,
+				69450B182AD2E0D700B3FF22 /* ProfileCardView.swift in Sources */,
+				69450B122AD2D05700B3FF22 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
